@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nome": "Tecnologia em Sistemas para Internet",
+    "sigla": "TSI",
+    "coordenador": "Joice"
+  },
+  {
+    "id": 2,
+    "nome": "Bacharelado em Sistemas de Informação",
+    "sigla": "BSI",
+    "coordenador": "Aujor"
+  },
+  {
+    "id": 3,
+    "nome": "Bacharelado em Agronomia",
+    "sigla": "AGRO",
+    "coordenador": "Alan"
+  }
+]
