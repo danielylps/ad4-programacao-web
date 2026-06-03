@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Joice Mota",
+        "email": "joice@ifc.edu.br",
+        "sala": "A101"
+    },
+    {
+        "id": 2,
+        "nome": "Rafael Speroni",
+        "email": "rafael@ifc.edu.br",
+        "sala": "B202"
+    },
+    {
+        "id": 3,
+        "nome": "Angelo",
+        "email": "angelo@ifc.edu.br",
+        "sala": "C303"
+    }
+]
