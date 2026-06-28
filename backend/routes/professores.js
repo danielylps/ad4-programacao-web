@@ -1,10 +1,16 @@
 const express = require('express');
 const router = express.Router();
 
-const professores = require('../public/professores.json');
+const professorController = require('../controllers/professorController');
 
-router.get('/', (req, res) => {
-    res.json(professores);
-});
+router.get('/', professorController.getProfessores);
+
+router.get('/:id', professorController.getProfessor);
+
+router.post('/', professorController.insereProfessor);
+
+router.put('/:id', professorController.updateProfessor);
+
+router.delete('/:id', professorController.deleteProfessor);
 
 module.exports = router;
